@@ -9,7 +9,7 @@ Check your truffle-config.js file and manually change the compiler version like 
 	module.exports = {
 		compilers: {
 			solc: {
-				version: "^0.8.4", 
+				version: "^0.5.6", 
 			}
 		},
 		...
@@ -19,3 +19,4 @@ Check your truffle-config.js file and manually change the compiler version like 
   You can find more information <a href="https://www.trufflesuite.com/docs/truffle/reference/configuration">here (official Truffle docs).</a>
 	
 If you're still getting an error in your .sol file on the pragma declaration, you can right-click the line of code and select `Solidity - Change workspace compiler version`.
+Additionally, if you use VSCode, this can also help: Add the following line to vscode user config : "solidity.compileUsingRemoteVersion": "0.5.6" .
